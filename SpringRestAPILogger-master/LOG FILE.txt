@@ -1,0 +1,32 @@
+11:50:06,087 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+11:50:06,087 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+11:50:06,087 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/C:/Users/grajeswa/Downloads/SpringRestAPILogger-master/target/classes/logback.xml]
+11:50:06,272 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+11:50:06,289 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+11:50:06,306 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [FILE-AUDIT]
+11:50:06,518 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@1211076369 - No compression will be used
+11:50:06,521 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@1211076369 - Will use the pattern c:/logs/archived/debug.%d{yyyy-MM-dd}.%i.log for the active file
+11:50:06,527 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@1593948d - The date pattern is 'yyyy-MM-dd' from file name pattern 'c:/logs/archived/debug.%d{yyyy-MM-dd}.%i.log'.
+11:50:06,527 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@1593948d - Roll-over at midnight.
+11:50:06,536 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@1593948d - Setting initial period to Fri Mar 29 11:37:03 IST 2019
+11:50:06,537 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@1593948d - SizeAndTimeBasedFNATP is deprecated. Use SizeAndTimeBasedRollingPolicy instead
+11:50:06,537 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@1593948d - For more information see http://logback.qos.ch/manual/appenders.html#SizeAndTimeBasedRollingPolicy
+11:50:06,544 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE-AUDIT] - Active log file name: c:/logs/debug.log
+11:50:06,544 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE-AUDIT] - File property is set to [c:/logs/debug.log]
+11:50:06,547 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.example.demo] to DEBUG
+11:50:06,547 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [com.example.demo] to false
+11:50:06,547 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FILE-AUDIT] to Logger[com.example.demo]
+11:50:06,548 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to ERROR
+11:50:06,548 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FILE-AUDIT] to Logger[ROOT]
+11:50:06,549 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+11:50:06,549 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@1b604f19 - Registering current configuration as safe fallback point
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.0.0.RELEASE)
+
